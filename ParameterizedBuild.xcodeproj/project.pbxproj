@@ -27,7 +27,7 @@
 		EE980C25143FB062005EB822 /* ParameterizedBuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParameterizedBuild; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE980C29143FB062005EB822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE980C2C143FB062005EB822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE980C2F143FB062005EB822 /* ParameterizedBuild-Prefix.pch */ = {isa = PBXFileReference; path = "ParameterizedBuild-Prefix.pch"; sourceTree = "<group>"; };
+		EE980C2F143FB062005EB822 /* ParameterizedBuild-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParameterizedBuild-Prefix.pch"; sourceTree = "<group>"; };
 		EE980C30143FB062005EB822 /* ParameterizedBuild.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ParameterizedBuild.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
