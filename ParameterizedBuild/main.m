@@ -8,13 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#define PARAMETRIZED_MESSAGE @"This message has been parameterized"
+
 int main (int argc, const char * argv[])
 {
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
     // insert code here...
-    NSLog(@"Hello, World!");
+    NSLog(PARAMETRIZED_MESSAGE);
 
     [pool drain];
     return 0;
