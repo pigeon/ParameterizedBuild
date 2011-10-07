@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#define PARAMETRIZED_MESSAGE @"This message has been parameterized"
+#ifndef PARAMETRIZED_MESSAGE
+   #define PARAMETRIZED_MESSAGE @"Normal Message"
+#endif
 
 int main (int argc, const char * argv[])
 {
