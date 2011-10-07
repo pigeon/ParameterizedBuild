@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #ifndef PARAMETRIZED_MESSAGE
-   #define PARAMETRIZED_MESSAGE @"Normal Message"
+   #define PARAMETRIZED_MESSAGE "Normal Message"
 #endif
 
 int main (int argc, const char * argv[])
@@ -18,7 +18,7 @@ int main (int argc, const char * argv[])
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
     // insert code here...
-    NSLog(PARAMETRIZED_MESSAGE);
+    NSLog(@PARAMETRIZED_MESSAGE);
 
     [pool drain];
     return 0;
