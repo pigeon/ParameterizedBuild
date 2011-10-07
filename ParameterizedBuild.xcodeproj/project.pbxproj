@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE980C2A143FB062005EB822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE980C29143FB062005EB822 /* Foundation.framework */; };
+		EE980C2D143FB062005EB822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE980C2C143FB062005EB822 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE980C23143FB062005EB822 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE980C25143FB062005EB822 /* ParameterizedBuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParameterizedBuild; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE980C29143FB062005EB822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE980C2C143FB062005EB822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE980C2F143FB062005EB822 /* ParameterizedBuild-Prefix.pch */ = {isa = PBXFileReference; path = "ParameterizedBuild-Prefix.pch"; sourceTree = "<group>"; };
+		EE980C30143FB062005EB822 /* ParameterizedBuild.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ParameterizedBuild.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE980C22143FB062005EB822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE980C2A143FB062005EB822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE980C1A143FB062005EB822 = {
+			isa = PBXGroup;
+			children = (
+				EE980C2B143FB062005EB822 /* ParameterizedBuild */,
+				EE980C28143FB062005EB822 /* Frameworks */,
+				EE980C26143FB062005EB822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE980C26143FB062005EB822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE980C25143FB062005EB822 /* ParameterizedBuild */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE980C28143FB062005EB822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE980C29143FB062005EB822 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE980C2B143FB062005EB822 /* ParameterizedBuild */ = {
+			isa = PBXGroup;
+			children = (
+				EE980C2C143FB062005EB822 /* main.m */,
+				EE980C30143FB062005EB822 /* ParameterizedBuild.1 */,
+				EE980C2E143FB062005EB822 /* Supporting Files */,
+			);
+			path = ParameterizedBuild;
+			sourceTree = "<group>";
+		};
+		EE980C2E143FB062005EB822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE980C2F143FB062005EB822 /* ParameterizedBuild-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE980C24143FB062005EB822 /* ParameterizedBuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE980C33143FB062005EB822 /* Build configuration list for PBXNativeTarget "ParameterizedBuild" */;
+			buildPhases = (
+				EE980C21143FB062005EB822 /* Sources */,
+				EE980C22143FB062005EB822 /* Frameworks */,
+				EE980C23143FB062005EB822 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParameterizedBuild;
+			productName = ParameterizedBuild;
+			productReference = EE980C25143FB062005EB822 /* ParameterizedBuild */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE980C1C143FB062005EB822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Golub;
+			};
+			buildConfigurationList = EE980C1F143FB062005EB822 /* Build configuration list for PBXProject "ParameterizedBuild" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE980C1A143FB062005EB822;
+			productRefGroup = EE980C26143FB062005EB822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE980C24143FB062005EB822 /* ParameterizedBuild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE980C21143FB062005EB822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE980C2D143FB062005EB822 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE980C31143FB062005EB822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE980C32143FB062005EB822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE980C34143FB062005EB822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParameterizedBuild/ParameterizedBuild-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE980C35143FB062005EB822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParameterizedBuild/ParameterizedBuild-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE980C1F143FB062005EB822 /* Build configuration list for PBXProject "ParameterizedBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE980C31143FB062005EB822 /* Debug */,
+				EE980C32143FB062005EB822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE980C33143FB062005EB822 /* Build configuration list for PBXNativeTarget "ParameterizedBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE980C34143FB062005EB822 /* Debug */,
+				EE980C35143FB062005EB822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE980C1C143FB062005EB822 /* Project object */;
+}
