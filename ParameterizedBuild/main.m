@@ -10,14 +10,17 @@
 
 //#define PARAMETRIZED_MESSAGE 
 
+#define SCHEME @"http://"
+
 #define DO_QUOTE(X)        #X
 #define QUOTE(X)           DO_QUOTE(X)
 
 
+
 #ifndef PARAMETRIZED_URL
-   #define URL "http://test.com/default_code"
+   #define URL_DOMAIN 
 #else 
-    #define URL PARAMETRIZED_URL 
+    #define URL_DOMAIN PARAMETRIZED_URL 
 #endif
 
 
@@ -27,8 +30,9 @@ int main (int argc, const char * argv[])
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
+    NSString* URLstring = [NSString stringWithFormat:@"%@%@",SCHEME,@QUOTE(URL_DOMAIN)];
     // insert code here...
-    NSLog(@QUOTE(URL));
+    NSLog(@"url = %@",URLstring);
 
     [pool drain];
     return 0;
