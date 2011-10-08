@@ -15,9 +15,9 @@
 
 
 #ifndef PARAMETRIZED_URL
-   #define URL "http://test.com/default"
+   #define URL "http://test.com/default_code"
 #else 
-    #define URL PARAMETRIZED_MESSAGE 
+    #define URL PARAMETRIZED_URL 
 #endif
 
 
