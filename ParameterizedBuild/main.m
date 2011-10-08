@@ -28,7 +28,7 @@ int main (int argc, const char * argv[])
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
     // insert code here...
-    NSLog(@QUOTE(STR));
+    NSLog(@QUOTE(URL));
 
     [pool drain];
     return 0;
