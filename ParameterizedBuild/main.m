@@ -8,9 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
+//#define PARAMETRIZED_MESSAGE 
+
+#define PREF(STR) #STR
+
 #ifndef PARAMETRIZED_MESSAGE
-   #define PARAMETRIZED_MESSAGE "Normal Message"
+   #define STR "Normal Message"
+#else 
+    #define STR PARAMETRIZED_MESSAGE //PREF(PARAMETRIZED_MESSAGE)
 #endif
+
+
+#define DO_QUOTE(X)        #X
+#define QUOTE(X)           DO_QUOTE(X)
+
+//#define MY_QUOTED_VAR      QUOTE(MYVARIABLE)
+
+//std::string x = MY_QUOTED_VAR;
+//std::string p = QUOTE(MYVARIABLE);
 
 int main (int argc, const char * argv[])
 {
@@ -18,7 +33,7 @@ int main (int argc, const char * argv[])
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
     // insert code here...
-    NSLog(@PARAMETRIZED_MESSAGE);
+    NSLog(@QUOTE(STR));
 
     [pool drain];
     return 0;
