@@ -10,22 +10,17 @@
 
 //#define PARAMETRIZED_MESSAGE 
 
-#define PREF(STR) #STR
-
-#ifndef PARAMETRIZED_MESSAGE
-   #define STR "Normal Message"
-#else 
-    #define STR PARAMETRIZED_MESSAGE //PREF(PARAMETRIZED_MESSAGE)
-#endif
-
-
 #define DO_QUOTE(X)        #X
 #define QUOTE(X)           DO_QUOTE(X)
 
-//#define MY_QUOTED_VAR      QUOTE(MYVARIABLE)
 
-//std::string x = MY_QUOTED_VAR;
-//std::string p = QUOTE(MYVARIABLE);
+#ifndef PARAMETRIZED_URL
+   #define URL "http://test.com/default"
+#else 
+    #define URL PARAMETRIZED_MESSAGE 
+#endif
+
+
 
 int main (int argc, const char * argv[])
 {
